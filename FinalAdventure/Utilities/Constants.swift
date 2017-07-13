@@ -6,4 +6,6 @@
 //  Copyright © 2017 Jack Korbin Kelley. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+let SHADOW_GRAY: CGFloat = 120.0 / 255.0
