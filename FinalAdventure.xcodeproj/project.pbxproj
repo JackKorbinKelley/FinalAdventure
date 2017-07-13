@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		04AA45411F16074A0056DB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45401F16074A0056DB3D /* AppDelegate.swift */; };
-		04AA45431F16074A0056DB3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45421F16074A0056DB3D /* ViewController.swift */; };
+		04AA45431F16074A0056DB3D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45421F16074A0056DB3D /* SignInVC.swift */; };
 		04AA45461F16074A0056DB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA45441F16074A0056DB3D /* Main.storyboard */; };
 		04AA45481F16074A0056DB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA45471F16074A0056DB3D /* Assets.xcassets */; };
 		04AA454B1F16074A0056DB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA45491F16074A0056DB3D /* LaunchScreen.storyboard */; };
 		04AA45561F16074B0056DB3D /* FinalAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45551F16074B0056DB3D /* FinalAdventureTests.swift */; };
 		04AA45611F16074B0056DB3D /* FinalAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45601F16074B0056DB3D /* FinalAdventureUITests.swift */; };
+		04AA456F1F173F2D0056DB3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AA456E1F173F2D0056DB3D /* GoogleService-Info.plist */; };
+		2598B8C9FB35ABAB05EB5AA4 /* Pods_FinalAdventureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB92F7B9AE7A1158988A1C12 /* Pods_FinalAdventureTests.framework */; };
+		676306EC55DDBD9AAC5E51F9 /* Pods_FinalAdventureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E191DFF1F5C0F8AFDD2B245A /* Pods_FinalAdventureUITests.framework */; };
+		AD3A59F482685CE00D9757CC /* Pods_FinalAdventure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48928CA9739F96975FF975B3 /* Pods_FinalAdventure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		04AA453D1F16074A0056DB3D /* FinalAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AA45401F16074A0056DB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04AA45421F16074A0056DB3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AA45421F16074A0056DB3D /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		04AA45451F16074A0056DB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AA45471F16074A0056DB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AA454A1F16074A0056DB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 		04AA455C1F16074B0056DB3D /* FinalAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AA45601F16074B0056DB3D /* FinalAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAdventureUITests.swift; sourceTree = "<group>"; };
 		04AA45621F16074B0056DB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA456E1F173F2D0056DB3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06019CAB6DC082FF96E98EA0 /* Pods-FinalAdventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAdventure.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAdventure/Pods-FinalAdventure.release.xcconfig"; sourceTree = "<group>"; };
+		2C895F6AA902037312767C01 /* Pods-FinalAdventureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAdventureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAdventureTests/Pods-FinalAdventureTests.release.xcconfig"; sourceTree = "<group>"; };
+		48928CA9739F96975FF975B3 /* Pods_FinalAdventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalAdventure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBDB10865838D967E90ED39 /* Pods-FinalAdventureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAdventureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAdventureUITests/Pods-FinalAdventureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD8309DEAE176480F9B3C8C /* Pods-FinalAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAdventure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAdventure/Pods-FinalAdventure.debug.xcconfig"; sourceTree = "<group>"; };
+		CB92F7B9AE7A1158988A1C12 /* Pods_FinalAdventureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalAdventureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E191DFF1F5C0F8AFDD2B245A /* Pods_FinalAdventureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalAdventureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E3A7E92616BA1A4CA20FAA /* Pods-FinalAdventureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAdventureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAdventureUITests/Pods-FinalAdventureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED15E5005D14D0DC2EC3F105 /* Pods-FinalAdventureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAdventureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAdventureTests/Pods-FinalAdventureTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD3A59F482685CE00D9757CC /* Pods_FinalAdventure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2598B8C9FB35ABAB05EB5AA4 /* Pods_FinalAdventureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676306EC55DDBD9AAC5E51F9 /* Pods_FinalAdventureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041233431F1741980095927C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041233441F1741A10095927C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041233451F1741A70095927C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04AA45421F16074A0056DB3D /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		04AA45341F16074A0056DB3D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				04AA45541F16074B0056DB3D /* FinalAdventureTests */,
 				04AA455F1F16074B0056DB3D /* FinalAdventureUITests */,
 				04AA453E1F16074A0056DB3D /* Products */,
+				BBFF5798A5E0C707C91D814D /* Pods */,
+				533DBB99A7CFB345A5B5A4A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,15 @@
 		04AA453F1F16074A0056DB3D /* FinalAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				041233451F1741A70095927C /* Controller */,
+				041233441F1741A10095927C /* View */,
+				041233431F1741980095927C /* Model */,
 				04AA45401F16074A0056DB3D /* AppDelegate.swift */,
-				04AA45421F16074A0056DB3D /* ViewController.swift */,
 				04AA45441F16074A0056DB3D /* Main.storyboard */,
 				04AA45471F16074A0056DB3D /* Assets.xcassets */,
 				04AA45491F16074A0056DB3D /* LaunchScreen.storyboard */,
 				04AA454C1F16074A0056DB3D /* Info.plist */,
+				04AA456E1F173F2D0056DB3D /* GoogleService-Info.plist */,
 			);
 			path = FinalAdventure;
 			sourceTree = "<group>";
@@ -125,6 +169,29 @@
 			path = FinalAdventureUITests;
 			sourceTree = "<group>";
 		};
+		533DBB99A7CFB345A5B5A4A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48928CA9739F96975FF975B3 /* Pods_FinalAdventure.framework */,
+				CB92F7B9AE7A1158988A1C12 /* Pods_FinalAdventureTests.framework */,
+				E191DFF1F5C0F8AFDD2B245A /* Pods_FinalAdventureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBFF5798A5E0C707C91D814D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8309DEAE176480F9B3C8C /* Pods-FinalAdventure.debug.xcconfig */,
+				06019CAB6DC082FF96E98EA0 /* Pods-FinalAdventure.release.xcconfig */,
+				ED15E5005D14D0DC2EC3F105 /* Pods-FinalAdventureTests.debug.xcconfig */,
+				2C895F6AA902037312767C01 /* Pods-FinalAdventureTests.release.xcconfig */,
+				5BBDB10865838D967E90ED39 /* Pods-FinalAdventureUITests.debug.xcconfig */,
+				E7E3A7E92616BA1A4CA20FAA /* Pods-FinalAdventureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AA45651F16074B0056DB3D /* Build configuration list for PBXNativeTarget "FinalAdventure" */;
 			buildPhases = (
+				0CBFF4384A91857ED9CC19D7 /* [CP] Check Pods Manifest.lock */,
 				04AA45391F16074A0056DB3D /* Sources */,
 				04AA453A1F16074A0056DB3D /* Frameworks */,
 				04AA453B1F16074A0056DB3D /* Resources */,
+				FD9A7E69158539E3887B7738 /* [CP] Embed Pods Frameworks */,
+				188CB8CCE2DA8C491723A1CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AA45681F16074B0056DB3D /* Build configuration list for PBXNativeTarget "FinalAdventureTests" */;
 			buildPhases = (
+				B7BBC09FC344F6FA632C50C7 /* [CP] Check Pods Manifest.lock */,
 				04AA454D1F16074B0056DB3D /* Sources */,
 				04AA454E1F16074B0056DB3D /* Frameworks */,
 				04AA454F1F16074B0056DB3D /* Resources */,
+				2FD89B86C05F55495E0979A3 /* [CP] Embed Pods Frameworks */,
+				DC1ED04F8565A1EF13D84915 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AA456B1F16074B0056DB3D /* Build configuration list for PBXNativeTarget "FinalAdventureUITests" */;
 			buildPhases = (
+				8A7DF7126A540F335CB86446 /* [CP] Check Pods Manifest.lock */,
 				04AA45581F16074B0056DB3D /* Sources */,
 				04AA45591F16074B0056DB3D /* Frameworks */,
 				04AA455A1F16074B0056DB3D /* Resources */,
+				C5944B842A903B1CF0EDFDC0 /* [CP] Embed Pods Frameworks */,
+				C39E2BB52B3C03EA038A2ABA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AA454B1F16074A0056DB3D /* LaunchScreen.storyboard in Resources */,
+				04AA456F1F173F2D0056DB3D /* GoogleService-Info.plist in Resources */,
 				04AA45481F16074A0056DB3D /* Assets.xcassets in Resources */,
 				04AA45461F16074A0056DB3D /* Main.storyboard in Resources */,
 			);
@@ -251,12 +328,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CBFF4384A91857ED9CC19D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		188CB8CCE2DA8C491723A1CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAdventure/Pods-FinalAdventure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD89B86C05F55495E0979A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAdventureTests/Pods-FinalAdventureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7DF7126A540F335CB86446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7BBC09FC344F6FA632C50C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C39E2BB52B3C03EA038A2ABA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAdventureUITests/Pods-FinalAdventureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5944B842A903B1CF0EDFDC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAdventureUITests/Pods-FinalAdventureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1ED04F8565A1EF13D84915 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAdventureTests/Pods-FinalAdventureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9A7E69158539E3887B7738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAdventure/Pods-FinalAdventure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04AA45391F16074A0056DB3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AA45431F16074A0056DB3D /* ViewController.swift in Sources */,
+				04AA45431F16074A0056DB3D /* SignInVC.swift in Sources */,
 				04AA45411F16074A0056DB3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +632,7 @@
 		};
 		04AA45661F16074B0056DB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD8309DEAE176480F9B3C8C /* Pods-FinalAdventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LHKSV7UKAG;
@@ -431,6 +647,7 @@
 		};
 		04AA45671F16074B0056DB3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06019CAB6DC082FF96E98EA0 /* Pods-FinalAdventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LHKSV7UKAG;
@@ -445,6 +662,7 @@
 		};
 		04AA45691F16074B0056DB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED15E5005D14D0DC2EC3F105 /* Pods-FinalAdventureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,6 +679,7 @@
 		};
 		04AA456A1F16074B0056DB3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C895F6AA902037312767C01 /* Pods-FinalAdventureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +696,7 @@
 		};
 		04AA456C1F16074B0056DB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBDB10865838D967E90ED39 /* Pods-FinalAdventureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LHKSV7UKAG;
@@ -492,6 +712,7 @@
 		};
 		04AA456D1F16074B0056DB3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E3A7E92616BA1A4CA20FAA /* Pods-FinalAdventureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LHKSV7UKAG;
@@ -524,6 +745,7 @@
 				04AA45671F16074B0056DB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AA45681F16074B0056DB3D /* Build configuration list for PBXNativeTarget "FinalAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +754,7 @@
 				04AA456A1F16074B0056DB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AA456B1F16074B0056DB3D /* Build configuration list for PBXNativeTarget "FinalAdventureUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +763,7 @@
 				04AA456D1F16074B0056DB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_FinalAdventureUITests {
+  umbrella header "Pods-FinalAdventureUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
