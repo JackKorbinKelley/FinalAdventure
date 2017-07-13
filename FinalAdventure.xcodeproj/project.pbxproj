@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041233471F174FBE0095927C /* S_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 041233461F174FBD0095927C /* S_logo.png */; };
 		04AA45411F16074A0056DB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45401F16074A0056DB3D /* AppDelegate.swift */; };
 		04AA45431F16074A0056DB3D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA45421F16074A0056DB3D /* SignInVC.swift */; };
 		04AA45461F16074A0056DB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA45441F16074A0056DB3D /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041233461F174FBD0095927C /* S_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = S_logo.png; path = ../../../Downloads/S_logo.png; sourceTree = "<group>"; };
 		04AA453D1F16074A0056DB3D /* FinalAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AA45401F16074A0056DB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AA45421F16074A0056DB3D /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -101,6 +103,8 @@
 		041233441F1741A10095927C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04AA45441F16074A0056DB3D /* Main.storyboard */,
+				04AA45491F16074A0056DB3D /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,9 +146,8 @@
 				041233441F1741A10095927C /* View */,
 				041233431F1741980095927C /* Model */,
 				04AA45401F16074A0056DB3D /* AppDelegate.swift */,
-				04AA45441F16074A0056DB3D /* Main.storyboard */,
+				041233461F174FBD0095927C /* S_logo.png */,
 				04AA45471F16074A0056DB3D /* Assets.xcassets */,
-				04AA45491F16074A0056DB3D /* LaunchScreen.storyboard */,
 				04AA454C1F16074A0056DB3D /* Info.plist */,
 				04AA456E1F173F2D0056DB3D /* GoogleService-Info.plist */,
 			);
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AA454B1F16074A0056DB3D /* LaunchScreen.storyboard in Resources */,
+				041233471F174FBE0095927C /* S_logo.png in Resources */,
 				04AA456F1F173F2D0056DB3D /* GoogleService-Info.plist in Resources */,
 				04AA45481F16074A0056DB3D /* Assets.xcassets in Resources */,
 				04AA45461F16074A0056DB3D /* Main.storyboard in Resources */,

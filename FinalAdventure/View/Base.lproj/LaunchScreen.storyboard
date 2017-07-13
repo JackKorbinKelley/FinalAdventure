@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ZapfDingbats.ttf">
+            <string>ZapfDingbatsITC</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="loe-JX-6zB">
+                                <rect key="frame" x="35" y="20" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="e5h-w4-3NL"/>
+                                    <constraint firstAttribute="width" constant="250" id="yLB-qo-fyy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by JTech, 2017." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQr-7k-vhL">
+                                <rect key="frame" x="35" y="288" width="251" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="U2c-dM-npo"/>
+                                    <constraint firstAttribute="height" constant="25" id="iea-IR-xA0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adventure Group Holdings (C)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qK7-vl-4XY">
+                                <rect key="frame" x="35" y="328" width="251" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="Dmm-sz-4xo"/>
+                                    <constraint firstAttribute="height" constant="25" id="Mk3-QX-Lrq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8980392157" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qK7-vl-4XY" firstAttribute="top" secondItem="FQr-7k-vhL" secondAttribute="bottom" constant="15" id="6wc-du-n1m"/>
+                            <constraint firstItem="loe-JX-6zB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8dg-mK-uaq"/>
+                            <constraint firstItem="FQr-7k-vhL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VCY-Su-1C2"/>
+                            <constraint firstItem="FQr-7k-vhL" firstAttribute="top" secondItem="loe-JX-6zB" secondAttribute="bottom" constant="18" id="pRU-un-vSd"/>
+                            <constraint firstItem="qK7-vl-4XY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tRB-pM-YlF"/>
+                            <constraint firstItem="loe-JX-6zB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="xq8-Qu-YRc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="S_logo.png" width="1299" height="1300"/>
+    </resources>
+</document>
